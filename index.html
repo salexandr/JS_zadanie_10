@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+ <html>
+ <head>
+  <meta charset=utf-8>
+  <title>Домашнее задание Java Script №9-10</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  
+		<script type="text/javascript" src="js/jquery.selectbox-0.6.1.js"></script>
+        <link rel="stylesheet" type="text/css" media="all" href="css/jquery.selectbox.css" />
+		
+        <script type="text/javascript" src="js/checkboxs.js"></script>
+		<script type="text/javascript" src="js/checkboxs2.js"></script>
+
+ </head>
+ <body>
+
+	 <div class="interview">
+	     <div class="conteiner">
+
+	         <h2>Опрос</h2>
+	         <h3>Какой у Вас автомобиль?</h3>
+			 <select id="default-usage-select">
+							<option value="--">Выберите модель авто</option>
+							<option value="01">Lacetti</option>
+							<option value="02">Aveo</option>
+							<option value="03">Evanda</option>
+							<option value="04">Niva</option>
+							<option value="05">Tacuma</option>
+							<option value="06">Epica</option>
+							<option value="07">Camaro</option>
+			 </select>
+
+			 <div class="checkbox-jquery">
+			     <h3>Выберите комплектацию</h3>
+	             <form action="#">
+	                 <div><label for="ch1">SE</label><input type="checkbox" class="niceCheck" id="ch1" tabindex="1" /> </div>
+	                 <div><label for="ch2">SX</label><input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" /></div>
+	                 <div><label for="ch3">CDX</label><input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" /></div>
+	             </form>
+             </div>
+			 
+			 
+	     </div>
+	 </div>
+     <script src="js/script.js"></script>
+ </body>
+ </html>
+ 
