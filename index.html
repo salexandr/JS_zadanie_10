@@ -6,16 +6,70 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+        <script type="text/javascript" src="js/jcarousel.connected-carousels.js"></script>
 		<script type="text/javascript" src="js/jquery.selectbox-0.6.1.js"></script>
         <link rel="stylesheet" type="text/css" media="all" href="css/jquery.selectbox.css" />
-		
-        <script type="text/javascript" src="js/checkboxs.js"></script>
+		<script type="text/javascript" src="js/checkboxs.js"></script>
 		<script type="text/javascript" src="js/checkboxs2.js"></script>
-
  </head>
  <body>
+     <header>
+	     <div class="conteiner">
+			     <a href="#"><img class="logo" src="img/logotip.png" alt="logotip"></a>
+		 </div>
+	 </header>
+     <nav>
+	     <div class="conteiner">
+             <ul class="menu">
+                 <li class="menu__item arrow">
+				     <a class="menu__link" href="#">Модели<span>▼</span></a>
+				     <ul class="submenu">
+					     <li class="submenu__item"><a class="menu__link" href="">Lacetti</a></li>
+					     <li class="submenu__item"><a class="menu__link" href="">Aveo</a></li>
+					     <li class="submenu__item"><a class="menu__link" href="">Niva</a></li>
+					     <li class="submenu__item"><a class="menu__link" href="">Tacuma</a></li>
+					     <li class="submenu__item"><a class="menu__link" href="">Evanda</a></li>						 
+					 </ul>
+				 </li>
+                 <li class="menu__item"><a class="menu__link" href="#">Новости</a></li>
+                 <li class="menu__item"><a class="menu__link" href="#">Карта сайта</a></li>
+             </ul>
+		 </div>
+	 </nav>
+	 
+     <div class="connected-carousels">
+	            <h1>Тюнинг Chevrolet</h1>
+                <div class="stage">
+                    <div class="carousel carousel-stage">
+                        <ul>
+                            <li><img class="central-foto" src="img/ch1.jpg" alt=""></li>
+                            <li><img class="central-foto" src="img/ch2.jpg" alt=""></li>
+                            <li><img class="central-foto" src="img/ch3.jpg" alt=""></li>
+                            <li><img class="central-foto" src="img/ch4.jpg" alt=""></li>
+                            <li><img class="central-foto" src="img/ch5.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="prev prev-stage"><span>&lsaquo;</span></a>
+                    <a href="#" class="next next-stage"><span>&rsaquo;</span></a>
+                </div>
 
+                <div class="navigation">
+                    <a href="#" class="prev prev-navigation">&lsaquo;</a>
+                    <a href="#" class="next next-navigation">&rsaquo;</a>
+                    <div class="carousel carousel-navigation">
+                        <ul>
+                            <li><img class="min-foto" src="img/ch1.jpg" alt=""></li>
+                            <li><img class="min-foto" src="img/ch2.jpg" alt=""></li>
+                            <li><img class="min-foto" src="img/ch3.jpg" alt=""></li>
+                            <li><img class="min-foto" src="img/ch4.jpg" alt=""></li>
+                            <li><img class="min-foto" src="img/ch5.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+				
+     </div>
 	 <div class="interview">
 	     <div class="conteiner">
 
@@ -41,6 +95,15 @@
 	             </form>
              </div>
 			 
+			 <div class="checkbox-css">
+			     <h3>Выберите КПП</h3>
+	             <form action="#">
+	                 <div class="check-div"><input type="checkbox" class="checkCSS" id="ch4" tabindex="1"><label class="label-check" for="ch4"><p>Автомат</p></label> </div>
+	                 <div class="check-div"><input type="checkbox" class="checkCSS" id="ch5" tabindex="2"><label class="label-check" for="ch5"><p>Механика</p></label></div>
+	                 <div class="check-div"><input type="checkbox" class="checkCSS" id="ch6" tabindex="3"><label class="label-check" for="ch6"><p>Робот</p></label></div>
+	             </form>
+				 <input type="submit" value="Отправить">
+             </div>
 			 
 	     </div>
 	 </div>
