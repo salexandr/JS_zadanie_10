@@ -2,13 +2,14 @@
 
 .jquery-selectbox {
 	position: relative;
+	left: 50%;
 	height: 26px;
 	border: 1px solid #d2ad63;
 	width: 300px;
 	z-index: 0;
 	float: left;
 	display: inline;
-	margin: 4px 4px 4px 0;
+	margin: 4px 4px 4px -150px;
 	font-size: 16px;
 	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color: #444;
@@ -36,7 +37,7 @@
 	left: 0px;
 	background: #fffcdf;
 	width: 295px;
-	height: 120px;
+	height: 130px;
 	overflow-x: hidden;
 	overflow-y: auto;
 	z-index: 1000;

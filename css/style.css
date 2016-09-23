@@ -300,6 +300,20 @@ ul {
 
 /* checkboxs */
 
+.niceCheck {
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../img/select/checkbox.png);
+}
+
+
+	
+.niceCheck input {
+	display: none;
+}
+
 .checkbox-jquery {
 	position: absolute;
 	top: 130px;
@@ -313,19 +327,9 @@ ul {
 	border: 1px solid #beaf83;
     border-radius: 10px;
 }
-.niceCheck {
-	width: 17px;
-	height: 17px;
-	display: inline-block;
-	cursor: pointer;
-	background: url(../img/select/checkbox.png);
-	overflow: hidden;
-}
+
 .niceChecked {
 	background-position: 0 -17px;
-}
-.niceCheck input {
-	margin-left: -100px;
 }
 
 .checkbox-jquery div {
@@ -410,4 +414,5 @@ ul {
     outline: none; 
     border-radius: 10px;
 }
+
 

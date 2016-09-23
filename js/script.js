@@ -8,7 +8,7 @@
                 $(this).children('.submenu').stop().slideUp()(700);
             }
         );
-		
+	$("select").selectbox();	
 })();
 
 
