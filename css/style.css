@@ -336,10 +336,6 @@ ul {
 	margin-bottom: 10px;
 }
 
-.niceCheckDisabled {
-	background-image: url(../img/select/checkbox-disabled.png);
-}
-
 .checkbox-jquery label {
 	width: 3em;
 	display: inline-block;

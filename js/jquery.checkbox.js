@@ -1,20 +1,22 @@
 ﻿$(function(){
 	
+	$(".niceCheck").each(	
+			function() {
+        dis($(this));
+	});
+	
 	$(".niceCheck").mousedown(
 	/* при клике на чекбоксе меняем его вид и значение */
 	function() {
-	     changeCheck(jQuery(this));
+	     changeCheck($(this));
 	});
 	
 	$(".niceCheck").each(
 	/* при загрузке страницы нужно проверить какое значение имеет чекбокс и в соответствии с ним выставить вид */
-	function() {
-
-	     changeCheckStart(jQuery(this));
-	});
+		function() {
 	
-
-	 
+	     changeCheckStart($(this));
+		});
 });
 
 	function changeCheck(el)
@@ -44,11 +46,20 @@
 	*/
 	{
 
+	
 	var el = el,
 	        input = el.find("input").eq(0);
+
 	      if(input.attr("checked")) {
 	        el.css("background-position","0 -17px");    
 	        }
 	     return true;
 		 
+	}
+	
+	function dis(el) {
+			if(el.hasClass('disabled')){
+         el.css("background","url(../img/select/checkbox-disabled.png)");
+    }
+	return true;
 	}
