@@ -308,7 +308,12 @@ ul {
 	background: url(../img/select/checkbox.png);
 }
 
-
+.disabledCheck {
+	width: 17px;
+	height: 17px;
+	background: url(../img/select/checkbox-disabled.png);
+	cursor: default;
+}
 	
 .niceCheck input {
 	display: none;
